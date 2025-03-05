@@ -37,4 +37,4 @@ def number_specific_all_tables(all_tables, party):
 
 print("The available tables are tables:",list_free_tables(restaurant_tables))
 print("A table that can sit a party of 2 is :", number_specific_table(restaurant_tables, 2))
-print("Tables that can sit a party of 2 are :", number_specific_all_tables(restaurant_tables, 6))
+print("Tables that can sit a party of 6 are :", number_specific_all_tables(restaurant_tables, 6))
